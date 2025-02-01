@@ -4,13 +4,38 @@
    box-sizing: border-box; 
 }
 
+body{
+    margin-top: 60px;
+    text-align: center;
+}
+h2
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+table{
+    
+    margin: auto;
+    text-align: center;
+   border: 5px solid green;
+}
+th{
+   color: crimson; 
+   text-transform: uppercase;
+}
+
 select{
-    width: 150px;
-    height: 25px;
+    width: 250px;
+    height: 35px;
+    font-size: 17px;
 }
 button{
     width: 150px;
-    height: 25px;  
+    height: 35px;  
     font-size: 18px;
     text-align: center;
+    background:green;
+    border-radius: 15px;
+    
 }
